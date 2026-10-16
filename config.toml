@@ -1,0 +1,28 @@
+# config.toml
+# 主题已作为子模块位于 themes/paper（hugo-PaperMod）
+
+baseURL = "https://yuri10086.github.io/github-blog/"
+locale = "zh-CN"
+title = "我的个人博客"
+# 使用 PaperMod 主题
+theme = "paper"
+defaultContentLanguage = "zh"
+
+[params]
+    # 亮色/暗色/自动模式
+    theme = "auto"
+    # 开启站内搜索
+    enableSearch = true
+    # 加载首页内容模式
+    defaultContentMode = "home"
+
+[taxonomies]
+    tag = "tags"
+
+[markup]
+    [markup.goldmark]
+        renderer = { unsafe = true }
+    [markup.highlight]
+        style = "monokai"
+
+# 若要添加社交链接或 SEO 参数，可自行在此处扩展
