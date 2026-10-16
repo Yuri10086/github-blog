@@ -7,5 +7,5 @@ description: "欢迎来到我的个人博客！"
 
 **最近项目：**
 
-- [项目一](/posts/hello-world/) — 示例
+- [项目一]({{< relref "posts/hello-world.md" >}}) — 示例
 - 在这里手动添加你的新项目链接……
